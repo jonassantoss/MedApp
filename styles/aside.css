@@ -22,17 +22,28 @@ aside {
     justify-content: space-around;
     align-items: start;
     gap: 3rem;
-    padding: 3rem 3rem 0rem 1rem;
   }
 
   .aside__link {
-    width: 100%;
+    font-size: 2rem;
+    color: var(--secondary-text-color);
+    border-radius: .8rem;
     display: flex;
     align-items: center;
     gap: 1rem;
-    padding: 0.5rem;
+    padding: 0.75rem;
     cursor: pointer;
     transition: background .5s;
+  }
+
+  .aside__link:hover {
+    background: #f5f5f5;
+    color: #9b9b9b;
+  }
+
+  .aside__link:active {
+    background: #E2E2E2;
+    color: #898989;
   }
 
   .aside__link-icon {
@@ -40,9 +51,8 @@ aside {
     height: 15%;
   }
 
-  .aside__link-text {
-    font-size: 2rem;
-    color: var(--secondary-text-color);
+  .aside__link.selected {
+    background: #d5e7f9;
   }
 
   .colored {
