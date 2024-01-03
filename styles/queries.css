@@ -1,0 +1,157 @@
+.queries {
+  margin: 0 auto 1.6rem auto;
+}
+
+.last__queries {
+  margin-bottom: 8rem;
+}
+
+.queries__heading {
+  margin-left: 1.6rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.queries__card {
+  border-radius: 0.8rem;
+  backdrop-filter: blur(11px);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+
+  margin: 4rem;
+}
+
+.card__heading,
+.card__subheading {
+  padding: 1.6rem;
+}
+
+.card__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--base-white);
+  border-radius: 0.8rem 0.8rem 0rem 0rem;
+}
+
+.card__patient {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.patient__icon {
+  width: 15%;
+}
+
+.patient__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.patient__heading {
+  font-weight: 700;
+}
+
+.patient__text {
+  color: var(--seconday-text-color);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.card__subheading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background: var(--base-white);
+  border-radius: 0rem 0rem 0.8rem 0.8rem;
+}
+
+.card__hour {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.card__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.videoCall-button,
+.audioCall-button {
+  width: 48%;
+}
+
+.videoCall-button {
+  background: var(--videoCall-button-color);
+  color: var(--base-white);
+  box-shadow: 0rem 0.4rem 1.6rem 0rem rgba(255, 176, 80, 0.16);
+  border: none;
+
+  transition: .3s ease-out;
+}
+
+.videoCall-button:hover {
+  background: #eea44a;
+}
+
+.videoCall-button:active {
+  background: #ce8e40;
+}
+
+.audioCall-button {
+  background: var(--base-white);
+  border: 0.1rem solid #ECECEC;
+
+  transition: .3s ease-out;
+}
+
+.audioCall-button:hover {
+  background: #F5F5F5;
+}
+
+.audioCall-button:active {
+  background: #ECECEC;
+}
+
+.location-button {
+  width: 100%;
+  background: var(--blue-500);
+  color: var(--base-white);
+  border: none;
+  box-shadow: 0px 4px 16px 0px rgba(72, 148, 255, 0.16);
+
+  transition: .3s ease-out;
+}
+
+.location-button:hover {
+  background: var(--blue-600);
+}
+
+.location-button:active {
+  background: var(--blue-700);
+  border: 0.1rem solid var(--blue-400);
+}
+
+@media screen and (min-width: 1024px) {
+  .queries {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .queries__card {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .queries {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

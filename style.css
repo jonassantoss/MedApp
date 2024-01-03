@@ -1,0 +1,47 @@
+@import url('styles/header.css');
+@import url('styles/aside.css');
+@import url('styles/queries.css');
+@import url('styles/button.css');
+@import url('styles/form.css');
+@import url('styles/footer.css');
+
+:root {
+  --primary-font: 'Montserrat';
+
+  --primary-text-color: #464646;
+  --secondary-text-color: #A3A3A3;
+  --terciary-text-color: #CFCFCF;
+  --placeholder-text-color: #ADADAD;
+  --label-text-color: #898989;
+  --base-white: #FFFFFF;
+  --videoCall-button-color: #FFB050;
+  
+  --blue-300: #70B4FF;
+  --blue-400: #57A4FF;
+  --blue-500: #4894FF;
+  --blue-600: #4786F0;
+  --blue-700: #4373DC;
+  --blue-800: #4062C9;
+
+  --red: #DE0000;
+
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(166deg, #F8F4FF 0%, #EFF0F4 100%);
+  font-family: var(--primary-font);
+  font-weight: 400;
+  color: var(--primary-text-color);
+  line-height: 160%;
+}
+
+.button {
+  padding: 1.6rem;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
+.opacity {
+  opacity: 0.5;
+}
