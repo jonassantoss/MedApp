@@ -2,7 +2,7 @@
 
 Este é um desafio desenvolvido para fins didaticos como parte da formação [Front-End: A partir do zero: HTML e CSS para projetos web] da Alura. O projeto consiste em um site/mobile app para consultas médicas, utilizando de mobile-first, media queries, etc.
 
-Para o utilizar, clique no link a seguir: [https://optimus-tech-bay.vercel.app/](https://med-app-umber.vercel.app/)
+Para o utilizar, clique no link a seguir: https://med-app-umber.vercel.app/
 
 ## Tecnologias Utilizadas
 
