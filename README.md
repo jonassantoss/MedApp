@@ -8,6 +8,7 @@ Para o utilizar, clique no link a seguir: https://med-app-umber.vercel.app/
 
 - HTML5
 - CSS3
+- Javascript
 
 ## Como Contribuir
 
